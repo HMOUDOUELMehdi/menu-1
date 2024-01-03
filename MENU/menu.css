@@ -1,0 +1,66 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.mainbox{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 35px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+    color:rgb(131, 131, 131);
+    font-size: 30px;
+
+}
+
+#menu{
+     transition: 1s;
+}
+
+.menu{
+   
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 0px;
+    background-color: blueviolet;
+    z-index: 1;
+    padding-top: 100px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+a{
+    padding: 8px;
+    font-size: 25px;
+    color: black;
+    display: block;
+    
+}
+
+a:hover{
+    color: white;
+    transition: 0.5s;
+ 
+}
+
+.closebtn{
+    color: white;
+    position: absolute;
+    top: 0%;
+    right: 30px;
+    font-size: 50px;
+    transition: 2s;
+}
+
+.active{
+    background-color: black;
+    color: white;
+
+
+}
